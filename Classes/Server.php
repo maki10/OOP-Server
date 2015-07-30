@@ -6,7 +6,8 @@ class serverStart
 	protected $_steam; // Bash
 	protected $_mashine; // SSH2 Connect Ip and Port
 	protected $_user; // SSH2 User
-	protected $_comand; // SSH2 Command
+	protected $_comand = 'Test 123'; // SSH2 Command
+	#TODO protected $command; Safety reason
 	
 	public function __construct($server, $port, $username, $password, $command)
 	{
